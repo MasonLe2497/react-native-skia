@@ -40,28 +40,28 @@ endif()
 add_library(
         ${PACKAGE_NAME}
         SHARED
-        "${PROJECT_SOURCE_DIR}/cpp/jni/JniLoad.cpp"
-        "${PROJECT_SOURCE_DIR}/cpp/jni/JniSkiaManager.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/jni/JniLoad.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/jni/JniSkiaManager.cpp"
 
-        "${PROJECT_SOURCE_DIR}/cpp/jni/JniPlatformContext.cpp"
-        "${PROJECT_SOURCE_DIR}/cpp/rnskia-android/RNSkOpenGLCanvasProvider.cpp"
-        "${PROJECT_SOURCE_DIR}/cpp/rnskia-android/SkiaOpenGLRenderer.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/jni/JniPlatformContext.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/rnskia-android/RNSkOpenGLCanvasProvider.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/rnskia-android/SkiaOpenGLRenderer.cpp"
 
-        "${PROJECT_SOURCE_DIR}/cpp/jsi/JsiHostObject.cpp"
-        "${PROJECT_SOURCE_DIR}/cpp/jsi/JsiValue.cpp"
-        "${PROJECT_SOURCE_DIR}/cpp/jsi/RuntimeLifecycleMonitor.cpp"
-        "${PROJECT_SOURCE_DIR}/cpp/jsi/RuntimeAwareCache.cpp"        
-        "${PROJECT_SOURCE_DIR}/cpp/jsi/JsiPromises.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/jsi/JsiHostObject.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/jsi/JsiValue.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/jsi/RuntimeLifecycleMonitor.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/jsi/RuntimeAwareCache.cpp"        
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/jsi/JsiPromises.cpp"
 
-        "${PROJECT_SOURCE_DIR}/cpp/rnskia/RNSkManager.cpp"
-        "${PROJECT_SOURCE_DIR}/cpp/rnskia/RNSkJsView.cpp"
-        "${PROJECT_SOURCE_DIR}/cpp/rnskia/RNSkDomView.cpp"
-        "${PROJECT_SOURCE_DIR}/cpp/rnskia/RNSkDispatchQueue.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/rnskia/RNSkManager.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/rnskia/RNSkJsView.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/rnskia/RNSkDomView.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/rnskia/RNSkDispatchQueue.cpp"
 
-        "${PROJECT_SOURCE_DIR}/cpp/rnskia/dom/base/DrawingContext.cpp"
-        "${PROJECT_SOURCE_DIR}/cpp/rnskia/dom/base/ConcatablePaint.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/rnskia/dom/base/DrawingContext.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/rnskia/dom/base/ConcatablePaint.cpp"
 
-        "${PROJECT_SOURCE_DIR}/cpp/api/third_party/CSSColorParser.cpp"
+        "${PROJECT_SOURCE_DIR}/src/main/cpp/api/third_party/CSSColorParser.cpp"
 
 )
 
